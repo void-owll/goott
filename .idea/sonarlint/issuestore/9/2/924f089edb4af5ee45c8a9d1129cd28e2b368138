@@ -1,0 +1,9 @@
+
+V
+java:S1220""Move this file to a named package.J$6d824844-55a0-484e-b66a-18607a50057a
+f
+java:S3457	"%String contains no format specifiers.(Šªž„ýÿÿÿÿJ$011e1882-8339-432e-9f29-96371b92403c
+k	java:S106	"+Replace this use of System.out by a logger.(Šªž„ýÿÿÿÿJ$d017457b-1561-4241-b8d6-a1bd865b2ebf
+k	java:S106"+Replace this use of System.out by a logger.(Ðö¶žüÿÿÿÿJ$ac29d595-d63b-4d79-8f6a-1aac69c604d0
+l
+java:S1128"0Remove this unused import 'java.io.PrintStream'.(×êŽ’J$26b8ce50-c97b-470f-8cc8-2e2bd491fd49
