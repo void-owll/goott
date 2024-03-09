@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+/*
+	[문제1] 키보드로 두 수를 입력받아서 덧셈, 뺼셈, 곱셈, 나눗셈 작업을 진행해 보세요.
+			document.write() 함수를 이용하여 함수에 출력할 것.
+			주의) 나눗셈은 기본적으로 자료형을 double 형으로 형변환 한 뒤 나눗셈 작업을 진행함.
+			
+	
+*/
+
+	let num1 = Number(prompt("첫 번째 숫자를 입력하세요"));
+	let num2 = Number(prompt("두 번째 숫자를 입력하세요"));
+	
+	document.write(`${num1} + ${num2} = ${(num1+num2)}<br>`);
+	document.write(`${num1} - ${num2} = ${(num1-num2)}<br>`);
+	document.write(`${num1} * ${num2} = ${(num1*num2)}<br>`);
+	document.write(`${num1} / ${num2} = ${(num1/num2)}<br>`);
+	
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

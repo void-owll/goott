@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<!-- 
+		- link : 현재 문서와 외부 리소스(.css) 파일 간의 관계를 명시하는 선언.
+		- rel="stylesheet" : <link> 태그로 연결하는 파일이 외부에 있는 스타일시트임을 선언.
+		- href : 이 속성은 링크된 리소스의 url 경로를 참조함.
+		- 외부 스타일시트 파일을 선언하고 사용하는 이유.
+			==> 대부분의 HTML 파일에 동일하게 스타일을 적용할 수 있다는 장점이 있음.
+	 -->
+
+	<h3>웹 표준 이후의 예</h3>
+	
+	<p>
+		이제 <span>웹 표준</span>의 역할은 
+		아주 <span>중요</span>합니다.
+	</p>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	/*
+	Math 객체 : 수학 내장 객체.
+	- 거의 대부분이 함수로 구성되어 있음.
+	
+	- abs(숫자)
+	  ==> 절대값을 반환
+	- max(숫자1, 숫자2, ..., 숫자n)
+	- min(숫자1, 숫자2, ..., 숫자n)
+	- pow(숫자, 제곱수)
+	  ==> 숫자의 제곱수를 반환
+	- random(숫자)
+	  ==> 0~1 사이의 난수 발생
+	- round(숫자)
+	  ==> 반올림하여 정수반환
+	- ceil(숫자)
+	  ==> 올림
+	- floor(숫자)
+	  ==> 내림
+	- sqrt(숫자)
+	  ==> 숫자의 제곱근 값을 반환
+	*/
+	
+	document.write(`최대값 >>> ${Math.max(30, 47, 8, 98, 21)} <br>`);
+	document.write(`<hr>`);
+
+	document.write(`최소값 >>> ${Math.min(30, 47, 8, 98, 21)} <br>`);
+	document.write(`<hr>`);
+	
+	let num = 2.1234;
+	
+	document.write(`반올림 >>> ${Math.round(num)} <br>`);
+	document.write(`<hr>`);
+	
+	document.write(`올림 >>> ${Math.ceil(num)} <br>`);
+	document.write(`<hr>`);
+	
+	document.write(`소수점이하생략 >>> ${Math.floor(num)} <br>`);
+	document.write(`<hr>`);
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

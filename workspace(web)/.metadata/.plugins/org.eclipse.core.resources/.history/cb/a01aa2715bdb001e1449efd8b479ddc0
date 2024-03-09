@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<img class="photo" alt="튤립 이미지" src="images/img.jpg">
+	
+	<img class="shadow" alt="튤립 이미지" src="images/img.jpg">
+</body>
+</html>

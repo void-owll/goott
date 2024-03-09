@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function insertStudent(){
+		
+		
+	}
+	
+	function printStudent(){
+		
+	}
+
+</script>
+</head>
+<body>
+	<h2>출력창</h2>
+	
+	<div id="output"></div>
+	<br>
+	<input type="button" value="입력" onclick="insertStudent()">
+	<input type="button" value="출력" onclick="printStudent()">
+	
+</body>
+</html>

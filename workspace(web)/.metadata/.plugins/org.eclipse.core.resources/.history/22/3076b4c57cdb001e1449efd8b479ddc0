@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+
+/* 회원 로그인 페이지 관련 디자인 적용 */
+#login_wrap {
+	width: 250px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	border: 2px solid blue;
+	border-radius: 20px;
+	box-shadow: 15px 15px 15px skyblue;
+	
+	
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	/*
+		location 객체
+		
+		- 자바스크립트가 실행되고 있는 현재 웹 브라우저의 주소 창에 표시된 주소 값과 관련된 내용을 다름.
+	*/
+</script>
+</head>
+<body>
+
+</body>
+</html>

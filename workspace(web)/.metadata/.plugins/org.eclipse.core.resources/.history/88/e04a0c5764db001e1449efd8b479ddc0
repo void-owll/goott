@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+/* 문서 전체 영역에 대한 디자인 적용 */
+body{
+	font-size: 14px;
+	font-family: 맑은고딕, 명조체;
+}
+
+/* 모든 div 태그에 대한 디자인 적용 */
+#container{
+	width: 950px;   /* 문서 전체 가로폭 크기 설정 */
+	margin: 0 auto;
+	background-color: #FFF;
+	border: 1px solid #e8e2ae;
+	
+}
+
+/* head 영역 디자인 적용 */
+#head{
+	height: 208px;
+	
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>데카르트 홈페이지</title>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div id="container">
+		<header id="head">		<!-- 웹 문서의 상단 영역 -->
+			<div id="login">
+				<a href="./index.html">홈</a>
+				<a href="#" onclick="login_window()">로그인</a>
+				<a href="#" onclick="login_window()">회원가입</a>
+			</div> <!-- login end -->
+			
+			<hgroup>
+				<h1>게타르트, 서양 근대철학의 창시자</h1>
+				<h2>Rene, Decartes, 1596 ~ 1650</h2>
+			</hgroup>
+		</header> <!-- head end -->
+	</div> <!-- container end -->
+</body>
+</html>

@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+
+/* 문서 전체 영역에 대한 디자인 적용 */
+body{
+	font-size: 14px;
+	font-family: 맑은고딕, 명조체;
+}
+
+/* 모든 div 태그에 대한 디자인 적용 */
+#container{
+	width: 950px;   /* 문서 전체 가로폭 크기 설정 */
+	margin: 0 auto;
+	background-color: #FFF;
+	border: 1px solid #e8e2ae;
+	
+}
+
+/* head 영역 디자인 적용 */
+#head{
+	height: 208px;
+	margin-top: 0;
+	background-image: url("../img/bg.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+/* header 영역 중에서 로그인 영역에 대한 디자인 적용 */
+#login{
+	float: right;	
+	margin: -20px 20px 0 0;
+	font-size: 12px;
+	word-spacing: 15px;		/* 글자와 글자 사이의 간격 */
+	text-shadow: 1px 2px 2px #666;
+}
+
+/* 로그인 영역의 a 링크 태그에 대한 디자인 적용 */
+#login a {
+	text-decoration: none;
+	color: #333;
+}
+
+#login a:hover {
+	color: #f90;
+}
+
+/* header 영역의 제목과 부제목 태그 영역 디자인 적용 */
+header hgroup{
+	position: relative;			/* 자신을 기준으로 함 */	
+	top: 60px;
+	left: 180px;
+}
+
+/* header 영역의 제목 영역 디자인 적용 */
+header h1 {
+	font-size: 2.5em;
+	color: #f2cb78;
+	text-shadow: 1px 2px 2px #000;
+	
+}

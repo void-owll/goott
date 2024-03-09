@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	.photo{
+		position:absolute;
+		left: 50px;
+		top: 20px;
+		 
+	}
+	
+	.shadow{
+		position:absolute;
+		left: 450px;
+		top: 20px;
+		
+		border-radius: 20px;
+	}
+
+</style>
+</head>
+<body>
+	<img class="photo" alt="튤립 이미지" src="images/img.jpg">
+	
+	<img class="shadow" alt="튤립 이미지" src="images/img.jpg">
+</body>
+</html>

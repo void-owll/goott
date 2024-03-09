@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+	let str = ["홍길동", "이순신", "세종대왕", "강감찬", "신사임당", "유관순"];
+	
+	document.write(`${str} <br>`);
+	
+	document.write(`<hr>`);
+	
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

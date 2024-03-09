@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 
+		1. 블록 레벨 요소
+			- 주요 태그 : hn, p, div
+		
+		2. 인라인레벨 요소 
+	
+	 -->
+	<h1>HELL.O</h1>
+	<div>HELL.O</div>
+	<span>HELL.O</span>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>세번째 페이지</h2>
+
+	<hr>
+	<input type="button" value="바로 이전 페이지" onclick="history.go(-1)">	
+	<input type="button" value="맨 처음 페이지" onclick="history.go(-3)">	
+
+</body>
+</html>

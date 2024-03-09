@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+	/*
+		자바스크립트 내장함수
+		- 자바스크립트에서 자체적으로 제공해 주고 있는 함수를 말함.
+		- 예를 든다면 지금까지 사용해 왔던 alert() , prompt() 함수가 대표적인 내장함수임.
+		
+		타이머 함수(내장함수)
+		- setTimeout(function, milisecond)
+		  : 일정 시간이 지난 후에 함수를 한 번만 실행하는 함수.
+
+		- setInterval(function, milisecond)
+		  : 일정 시간마다 함수를 반복해서 실행하는 함수.
+		  
+		- clearTimeout(타이머 id)
+		  : 일정 시간 후 함수를 한 번 실행하는 것을 중지하는 함수.
+		  
+		- clearInterval(타이머 id)
+		  : 일정 시간마다 함수를 반복하는 것을 중지하는 함수.
+		  
+	*/
+
+	// 3초 후에 함수(alarm)을 실행하는 함수.
+	function alarm() {
+		alert("3초가 지났습니다.");		  
+	}
+	
+	setTimeout(alarm, 3000);
+		
+	
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

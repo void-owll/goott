@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	.parent{
+		width: 300px;
+		height: 250px;
+		border: 4px solid;			/* 색상 생략 시 검은색 */
+		overflow: auto;
+	}
+	
+	.parent .child{
+		width: 100px;
+		height: 100px;
+		background-color: tomato;
+		border: 4px solid red;
+	}
+</style>
+</head>
+<body>
+
+	<!-- 
+		overflow 속성
+		- 부모 요소의 크기 이상으로 내용(자식 요소)이 넘쳤을 때 내용의 보여짐을 제어하는 속성.
+		
+		overflow 속성의 값
+		  * visible : 넘친 부분을 자르지 않고 그대로 보여줌.
+		  * hidden : 넘친 부분을 잘라내고 보이지 않게 함.
+		  * scroll : 넘친 부분을 잘라내고 스크롤 바를 이용하여 보여지게 함.
+		  * auto : 넘친 부분이 있는 경우만 잘라내고, 스크롤 바를 이용하여 볼 수 있도록 함.
+	 --> 
+	<div class="parent">
+		<div class="child">1</div>
+		<div class="child">2</div>
+		<div class="child">3</div>
+	</div>
+</body>
+</html>

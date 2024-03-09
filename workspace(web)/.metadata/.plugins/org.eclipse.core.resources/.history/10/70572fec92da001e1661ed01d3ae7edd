@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>웹 표준 이전의 예</h3>
+	
+	<p>
+		이제 <font size="5">웹 표준</font>의 역할은 
+		아주 <font size="5">중요</font>합니다.
+	</p>
+</body>
+</html>

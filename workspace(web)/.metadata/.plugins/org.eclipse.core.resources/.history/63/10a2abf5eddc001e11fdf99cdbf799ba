@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+	function func(su){
+		return su*su;
+	}
+
+	document.write(`함수 호출 >>> ${func(4)} <br> `);
+	
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

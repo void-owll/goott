@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	/*
+	[문제] 학생 객체에 대한 정보를 키보드로 입력을 받아서 화면에 보여주세요.
+			정보 : 학번, 이름, 학과, 연락처, 주소
+	*/
+	
+	const student = {}
+	
+	student.stdno = prompt("학번 입력");
+	student.stdname = prompt("이름 입력");
+	student.major = prompt("학과 입력");
+	student.phone = prompt("연락처 입력");
+	student.addr = prompt("주소 입력");
+	
+	for(let key in student){
+		document.write(`${key} >> ${student.key}<br>`);
+	}
+</script>
+</head>
+<body>
+
+</body>
+</html>

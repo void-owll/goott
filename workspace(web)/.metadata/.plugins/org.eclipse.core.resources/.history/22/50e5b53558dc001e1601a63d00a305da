@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	/*
+		 자바에서는 배열의 크기가 한 번 정해지면 배열의 크기를 늘리거나 줄일 수 없음.
+		 하지만, 자바스크립트에서는 배열 객체에 요소를 추가할 수 있음.
+	*/
+	let arr = [10, 20, 30];
+	
+	document.write(`${arr} <br>`);;
+	document.write(`<hr>`);
+
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

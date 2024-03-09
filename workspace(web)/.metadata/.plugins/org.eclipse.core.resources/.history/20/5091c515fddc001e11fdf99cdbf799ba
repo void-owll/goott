@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function insertStudent(){
+		let student={
+			hakbun : prompt("학번 입력"),
+			name :  prompt("이름 입력"),
+			major : prompt("학과 입력"),
+			phone : prompt("학번 입력"),
+			
+			studentInfo : function(){
+				let str = "학번 : " + this.hakbun + "<br>이름 : " + this.name + "<br>학과 : " + this.major + "<br>연락처 : " + this.phone;
+				
+				return str;
+			}
+		}	
+	}
+	
+	function printStudent(){
+	 
+		
+	}
+
+</script>
+</head>
+<body>
+	<h2>출력창</h2>
+	
+	<div id="output"></div>
+	<br>
+	<input type="button" value="입력" onclick="insertStudent()">
+	<input type="button" value="출력" onclick="printStudent()">
+	
+</body>
+</html>

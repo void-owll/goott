@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+	// 단항(증감) 연산자(++, --)
+	
+	let su1 = 10, su2 = 20;
+	
+	document.write(su1++ + '<br>');
+	document.write(++su1 + '<br>');
+	document.write(su2-- + '<br>');
+	document.write('<hr>');
+		
+
+	let a = 10, b = 20, c = 3;
+	document.write(`${++a} <br>`);
+	document.write(`${a++} <br>`);
+	document.write(`${c++} <br>`);
+	document.write(`${++a + b++} <br>`);
+	
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

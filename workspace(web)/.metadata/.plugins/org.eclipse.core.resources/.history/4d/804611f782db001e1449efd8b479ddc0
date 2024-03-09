@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>데카르트 저서</title>
+<link rel="stylesheet" href="../css/sub.css">
+<script type="text/javascript">
+
+	function login_window()  {
+		// 형식) window.open("파일경로명", "창이름", "가로폭, 세로높이")
+		window.open("../login/login.html", "로그인", "width=380px, height=350px");
+		
+	}
+</script>
+</head>
+<body>
+	<div id="container">
+		<header id="head">		<!-- 웹 문서의 상단 영역 -->
+			<div id="login">
+				<a href="../index.html">홈</a>
+				<a href="#" onclick="login_window()">로그인</a>
+				<a href="#" onclick="join_window()">회원가입</a>
+			</div> <!-- login end -->
+			
+			<hgroup>
+				<h1>데카르트, 서양 근대철학의 창시자</h1>
+				<h2>Rene, Decartes, 1596 ~ 1650</h2>
+			</hgroup>
+		</header> <!-- head end -->
+		
+		<!-- 웹 문서의 네비게이션 영역 - 메뉴가 설정되는 영역 -->
+		<nav id="navi">
+			<ul>
+				<li> <a href="../birth/birth.html">탄 생</a></li>
+				<li> <a href="../writing/writing.html">저 서</a></li>
+				<li> <a href="../philosophy/philosophy.html">철 학</a></li>
+				<li> <a href="../saying/saying.html">명 언</a></li>
+			</ul>
+		</nav>
+		
+		<!-- 웹 문서의 영역 설정하는 태그 - section 태그는 여러 번 사용 가능함. -->
+		<section id="content">
+			<h2>데카르트 저서</h2>
+			
+			<!-- section 영역의 본문 태그 -->
+			<article>
+				<h3>"나는 생각하다, 고로 존재한다." "그러나 나의 존재적 근거는 신"</h3>
+				<ul>
+					<li>Regulaead directionem ingenii 《정신지도를 위한 규칙》 (1701)</li>
+					<li>'정육면체의 면은 여섯개이다.', </li>
+					<li>'유클리드 기하학에서 두 평행선은 서로 만나지 않는다.'</li>
+				</ul>
+								
+				<div>
+					<img src="../img/bg2.png" width="710" height="195"
+						alt="오른쪽 탁자에 있는 여왕의 오른쪽 인물이 데카르트">
+				</div>
+			</article>
+		</section>
+		
+		<!-- 문서의 보조 내용(광고, 알림 등) -->
+		<aside id="sidebar">
+			<h3>저서 구입</h3>
+			<p>저서 구입을 원하는 분들은 010-4725-3440 로
+			   연락 주시기 바랍니다.</p>
+			<img src="../img/book1.png" width="130" height="160">
+			<img src="../img/book2.png" width="130" height="160">
+		</aside>
+		
+		<!-- 문서의 하단 영역 -->
+		<footer id="foot">
+			<p>글 : 임 정 훈 / 저술가, 번역가</p>
+			<address>E-Main : jhehun@gmail.com</address>
+			<p>Copyright &copy; All right reserved</p>
+		</footer>
+	</div> <!-- container end -->
+</body>
+</html>
+

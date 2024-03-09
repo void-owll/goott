@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	/*
+		관계(비교) 연산자
+		- >=, >, ==, <, <=, !=, ===
+		- 관계 연산자의 결과는 항상 boolean 형으로 나온다.
+		
+	*/
+	
+	let su1 = 10, su2 = 4;
+	
+	document.write(`${su1} >= ${su2} >>> ${su1 >= su2}<br>`);
+	document.write(`${su1} > ${su2} >>> ${su1 > su2}<br>`);
+	document.write(`${su1} <= ${su2} >>> ${su1 <= su2}<br>`);
+	document.write(`${su1} < ${su2} >>> ${su1 < su2}<br>`);
+	document.write(`${su1} == ${su2} >>> ${su1 == su2}<br>`);
+	document.write(`${su1} != ${su2} >>> ${su1 != su2}<br>`);
+	document.write(`${su1} === ${su2} >>> ${su1 === su2}<br>`);
+	
+	document.write(`<hr>`);
+	
+	let su3 = '1000';
+	let su4 = 1000;
+	
+	
+	/*
+		== (동등연산자)
+		- 동등연산자는 비교 대상 값의 자료형이 다른 경우 강제로 형변환을 한 뒤에 비교한다.
+		- 좌변항과 우변항을 비교하여 값이 자료형과 상관없이 데이터가 일치하는지 여부를 반환한다.
+		
+		=== (일치연산자)
+		- 일치 연산자는 좌변항과 우변항의 내용이 정확하게 같을 때 true, 다르면 false
+		- 즉, 좌변항과 우변항의 데이터가 같고, 자료형이 일치해야 true
+	*/
+	document.write(`${su3} == ${su4} >>> ${su3 == su4}<br>`);
+	document.write(`${su3} === ${su4} >>> ${su3 === su4}<br>`);
+	
+
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

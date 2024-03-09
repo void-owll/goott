@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+	let su = 1;
+	
+	while(su <= 10){
+		document.write("su >> " + su + <br>);
+		su++;
+		
+		
+	}
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

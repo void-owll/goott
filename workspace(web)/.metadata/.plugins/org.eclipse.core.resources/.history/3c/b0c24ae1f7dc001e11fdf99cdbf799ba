@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	const product = { }
+	
+	product.productName = prompt("제품명을 입력하세요");
+	product.product_InputPrice = prompt("제품의 입고가를 입력하세요");
+	product.product_OutputPrice = prompt("제품의 출고가를 입력하세요");
+	product.productCompany = prompt("제품의 제조사를 입력하세요");
+
+	document.write(`<ul>`);
+	document.write(`<li>제품 이름 : ${product.productName} </li>`);
+	document.write(`<li>제품 입고가 : ${product.product_InputPrice} </li>`);
+	document.write(`<li>제품 출고가 : ${product.product_OutputPrice} </li>`);
+	document.write(`<li>제품 제조사 : ${product.productCompany} </li>`);
+	
+	
+	
+	
+	document.write(`</ul>`);
+	
+	
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>

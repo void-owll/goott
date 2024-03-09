@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+	/*
+	내장 객체 : 자바스크립트에서 제공해 주는 객체.
+	예) Date, Math 객체가 대표적인 내장 객체.
+	*/
+	
+	// Date 객체 : 날짜와 시간에 관련된 정보를 제공해 주는 객체
+	let date = new Date();
+	
+	console.log(typeof date);
+</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+	// 논리연산자 ( &&, ||, ! )
+	let bol1 = true, bol2 = false, bol3 = true, bol4 = false;
+	
+	document.write(`${bol1} && ${bol2} >>> ${bol1 && bol2} <br>`);
+	
+	document.write(`${bol1} && ${bol3} >>> ${bol1 && bol3} <br>`);
+	
+	document.write(`${bol2} || ${bol3} >>> ${bol3 || bol2} <br>`);
+	
+	document.write(`${bol3} || ${bol4} >>> ${bol3 || bol4} <br>`);
+	
+	document.write('<hr>');
+	
+	let a = 'A', b = 'B';
+	
+	// 3(true) && !0(true)
+	// !2(false) || true ==> true
+	let c = !2 || 3 && !0;
+	
+	document.write(c);
+</script>
+</head>
+<body>
+
+</body>
+</html>

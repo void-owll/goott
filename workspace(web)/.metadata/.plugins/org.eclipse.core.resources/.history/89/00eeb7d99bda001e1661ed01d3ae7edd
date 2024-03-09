@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>음료 메뉴</h3>
+	
+	<ul>
+		<li>콜라</li>
+		<li>사이다</li>
+		<li>환타</li>
+		<li>커피
+			<ol>
+				<li>아메리카노</li>
+				<li>카페라떼</li>
+				<li>아샷추</li>
+				<li>크림라떼</li>
+			</ol>	
+		</li>
+		<li>포카리스웨트</li>
+	</ul>
+	
+</body>
+</html>

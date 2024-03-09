@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+	let names = ["홍길동", "세종대왕", "유관순"];
+	
+	document.write(`${names} <br>`);
+	document.write('<hr>');
+	
+	// unshift(요소) : 배열의 맨 앞(0번째 인덱스)에 추가하는 함수.
+	names.unshift("이순신");
+	document.write(`${names} <br>`);
+	document.write('<hr>');
+	
+	// shift(요소) : 배열의 앞 요소를 삭제하는 함수.
+	names.shift();
+	document.write(`${names} <br>`);
+	document.write('<hr>');
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

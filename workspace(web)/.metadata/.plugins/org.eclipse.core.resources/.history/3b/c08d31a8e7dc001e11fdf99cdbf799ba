@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	// [문제] 키보드로 두 수와 연산자를 입력 받아서 연산자에 해당하는 함 수를 호출하여 연산 결과를 화면에 보여주세요.
+	
+	function plus(Number a, Number b){
+		alert(`두 수의 합은 ${a + b} 입니다`);
+	}
+	function minus(Number a, Number b){
+		alert(`두 수의 차는 ${a - b} 입니다`);
+	}
+	function multiple(Number a, Number b){
+		alert(`두 수의 곱은 ${a * b} 입니다`);
+	}
+	function div(Number a, Number b){
+		alert(`두 수의 나누기는 ${a / b} 입니다`);
+	}
+	function mod(Number a, Number b){
+		alert(`두 수의 나머지는 ${a % b} 입니다`);
+	}
+	
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

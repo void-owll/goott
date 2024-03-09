@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	/*
+		관계(비교) 연산자
+		- >=, >, ==, <, <=, !=, ===
+		- 관계 연산자의 결과는 항상 boolean 형으로 나온다.
+		
+	*/
+	
+	let su1 = 10, su2 = 4;
+	
+	document.write(`${su1} >= ${su2} >>> ${su1 >= su2}`);
+	document.write(`${su1} > ${su2} >>> ${su1 > su2}`);
+	document.write(`${su1} <= ${su2} >>> ${su1 <= su2}`);
+	document.write(`${su1} < ${su2} >>> ${su1 < su2}`);
+	document.write(`${su1} == ${su2} >>> ${su1 == su2}`);
+	document.write(`${su1} != ${su2} >>> ${su1 != su2}`);
+	document.write(`${su1} === ${su2} >>> ${su1 === su2}`);
+	
+	
+
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

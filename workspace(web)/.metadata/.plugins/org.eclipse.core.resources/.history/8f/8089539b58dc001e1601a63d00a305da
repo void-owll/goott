@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	/*
+		 자바에서는 배열의 크기가 한 번 정해지면 배열의 크기를 늘리거나 줄일 수 없음.
+		 하지만, 자바스크립트에서는 배열 객체에 요소를 추가할 수 있음.
+	*/
+	let arr = [10, 20, 30];
+	
+	document.write(`${arr} <br>`);;
+	document.write(`<hr>`);
+	
+	// 자바스크립트 배열에 요소(데이터)를 추가하는 방법.
+	// push(요소) - 맨 마지막에 데이터를 추가.
+	arr.push(40);
+	
+	document.write(`${arr} <br>`);;
+	document.write(`<hr>`);
+	
+	// 배열에 데이터를 추가할 때 복수 개의 데이터를 추가하는 방법.
+	// concat([추가할 요소1, 추가할 요소2, .... , 추가할 요소n]);
+	
+	arr.concat([50, 60, 70, 80, 90, 100]);
+	document.write(`${arr} <br>`);;
+	document.write(`<hr>`);
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

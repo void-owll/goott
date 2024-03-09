@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+
+	h1 {
+		color:skyblue;
+	}
+	
+	h1:hover {
+		color:blue;
+	}
+
+</style>
+</head>
+<body>
+	<h1>HELLO</h1>
+	
+</body>
+</html>

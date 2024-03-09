@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+
+	.txt {
+		background-color: yellow;
+		width: 45%;
+		height: 70px;
+		margin: 10% 0 0 10%;
+		border-style: dashed;
+		border-width: 0.3em;
+		border-color: red;
+		padding: 20%;
+	}
+
+</style>
+</head>
+<body>
+
+	<div class="txt"> 
+		아쎄이! 이 문구를 보았다면 희망을 버려라!
+	</div>
+</body>
+</html>

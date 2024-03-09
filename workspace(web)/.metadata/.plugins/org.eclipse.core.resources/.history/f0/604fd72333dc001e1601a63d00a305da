@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+	// 산술연산자(+, -, *, /, %)
+	let num1 = 15, num2 = 4, result;
+	result = num1 + num2;
+	document.write(num1 + " + " + num2 + " = " + result + "<br>");	
+	
+	result = num1 - num2;
+	document.write(`${num1} - ${num2} = ${result}<br>`);
+	
+	result = num1 * num2;
+	document.write(`${num1} * ${num2} = ${result}<br>`);
+	
+	result = num1 / num2;
+	document.write(`${num1} / ${num2} = ${result.toFixed(2)}<br>`);
+	
+	result = num1 % num2;
+	document.write(`${num1} % ${num2} = ${result}<br>`);
+	
+	document.write("<hr>");
+	
+	let tab = "<table border='1' width='150'>";
+	
+	tab += "<tr>";
+	
+	tab += "<th>" + num1 + "+" + num2 + "</th>";
+	
+	tab += "<td>" + (num1 + num2) + "</td>";
+	
+	tab += "</tr>";
+	
+	
+tab += "<tr>";
+	
+	tab += "<th>" + num1 + "%" + num2 + "</th>";
+	
+	tab += "<td>" + (num1 % num2) + "</td>";
+	
+	tab += "</tr></table>";
+	
+	document.write(tab);
+	
+	
+	
+</script>
+</head>
+<body>
+	
+</body>
+</html>
